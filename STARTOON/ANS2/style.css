@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #012E57;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-card {
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    background-color: #AEACAC;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #002647;
+}
+
+.profile-details p {
+    margin: 5px 0 0 0;
+    color: #7D7D7D;
+    font-size: 0.9em;
+}
+
+.goal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012E57;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.goal-meter {
+    text-align: center;
+}
+
+.goal-percentage {
+    font-size: 2em;
+    display: block;
+}
+
+.goal-text {
+    font-size: 0.9em;
+}
+
+.goal-metrics {
+    text-align: right;
+}
+
+.goal-metrics span {
+    display: block;
+    font-size: 0.8em;
+    color: #7D7D7D;
+}
+
+.contact-info, .medical-details, .medical-history {
+    margin-bottom: 15px;
+}
+
+.contact-info p, .medical-details p, .medical-history p {
+    margin: 5px 0;
+    color: #2C2B2B;
+}
+
+a {
+    color: #002647;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.medical-history a {
+    font-weight: bold;
+    color: #DF0100;
+}
+
+.medical-history p {
+    font-size: 0.9em;
+    color: #2C2B2B;
+}
